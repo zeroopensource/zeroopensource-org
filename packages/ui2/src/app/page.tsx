@@ -14,19 +14,36 @@ import { SlSocialReddit } from 'react-icons/sl'
 
 const projects = [
   {
-    name: 'ZeroUI',
+    name: 'UI',
     description:
       'A modern headless UI toolkit for React, built with performance and accessibility in mind.',
   },
   {
-    name: 'ZeroAuth',
+    name: 'Auth',
     description:
       'A plug-and-play authentication system for Next.js apps with zero config.',
   },
   {
-    name: 'ZeroDB',
+    name: 'AI',
+    description: 'Tiny, modular open-source AI agents and wrappers.',
+  },
+  {
+    name: 'CMS',
+    description: 'A headless CMS built with developer experience first.',
+  },
+  {
+    name: 'Deploy',
+    description: 'Zero-config deploy CLI for Next.js & Node apps.',
+  },
+  {
+    name: 'Test',
     description:
-      'A lightweight embedded database optimized for edge and serverless environments.',
+      'Blazing-fast test runner with snapshot & visual diff support.',
+  },
+  {
+    name: 'CLI',
+    description:
+      'A TS-first CLI framework with plugins and automation in mind.',
   },
 ]
 
