@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://zeroopensource.org/
+
+# Sitemaps
+Sitemap: https://zeroopensource.org/sitemap.xml
