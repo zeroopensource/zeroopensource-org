@@ -1,0 +1,54 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "schemaDocs": "https://ui.shadcn.com/docs/registry/registry-item-json",
+  "name": "zerocn",
+  "homepage": "https://zerocn.zeroopensource.org",
+  "items": [
+    {
+      "name": "all",
+      "description": "Aggregated component including all components in the registry",
+      "type": "registry:component",
+      "registryDependencies": [
+        "https://zerocn.zeroopensource.org/r/env.json",
+        "https://zerocn.zeroopensource.org/r/packagejson.json",
+        "https://zerocn.zeroopensource.org/r/mdx-cheatsheet.json"
+      ]
+    },
+    {
+      "name": "env",
+      "description": "Constant exposing environment variables",
+      "type": "registry:component",
+      "dependencies": ["dotenv", "dotenv-expand", "zod"],
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "src/registry/new-york/items/env/env.ts",
+          "type": "registry:lib"
+        }
+      ]
+    },
+    {
+      "name": "packagejson",
+      "description": "Constant exposing package.json data",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "src/registry/new-york/items/packagejson/packagejson.ts",
+          "type": "registry:lib"
+        }
+      ]
+    },
+    {
+      "name": "mdx-cheatsheet",
+      "description": "MDX syntax and usage reference",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "src/registry/new-york/items/mdx-cheatsheet/mdx-cheatsheet.mdx",
+          "type": "registry:file",
+          "target": "file/mdx-cheatsheet.mdx"
+        }
+      ]
+    }
+  ]
+}

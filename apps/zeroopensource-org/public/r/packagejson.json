@@ -1,0 +1,13 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "packagejson",
+  "description": "Constant exposing package.json data",
+  "files": [
+    {
+      "path": "src/registry/new-york/items/packagejson/packagejson.ts",
+      "content": "import packageJSON from \"@/root/package.json\" with { type: \"json\" };\r\n\r\nexport const PACKAGEJSON = {\r\n  ...packageJSON,\r\n  nameVersion: `${packageJSON.name}-${packageJSON.version}`,\r\n};\r\n",
+      "type": "registry:lib"
+    }
+  ],
+  "type": "registry:component"
+}
