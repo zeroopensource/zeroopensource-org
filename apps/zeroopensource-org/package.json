@@ -1,11 +1,11 @@
 {
-  "name": "@zeroopensource/zero-zerocn",
-  "shortName": "ZeroCN",
-  "description": "Shadcn registry made by Zero",
+  "name": "@zeroopensource/zeroopensource-org",
+  "shortName": "ZeroOpenSource.org",
+  "description": "Main website for Zero Open Source™ (aka ZeroOpenSource™; “Zero”)",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://zerocn.zeroopensource.org",
-  "repository": "https://github.com/zeroopensource/zero-zerocn",
+  "homepage": "https://zeroopensource.org",
+  "repository": "https://github.com/zeroopensource/zeroopensource-org",
   "scripts": {
     "build": "pnpm fix:copy-readme && pnpm build:registry && next build && pnpm fix:next-out ",
     "dev": "next dev",
