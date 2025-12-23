@@ -10,11 +10,11 @@
     "dev": "turbo dev",
     "start": "turbo start",
     "build": "turbo build",
+    "build:force": "turbo build --force",
     "lint": "turbo run lint",
     "check-types": "turbo check-types",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "check": "biome check --write .",
-    "build:force": "turbo build --force"
+    "check": "biome check --write ."
   },
   "dependencies": {},
   "devDependencies": {
