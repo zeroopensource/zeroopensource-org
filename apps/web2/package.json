@@ -1,15 +1,15 @@
 {
-  "name": "web2",
+  "_name": "web2",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
+  "_scripts": {
     "dev": "next dev --turbopack --port 3002",
     "build": "next build && next-sitemap",
     "start": "next start",
     "lint": "next lint",
     "shadcn": "shadcn"
   },
-  "dependencies": {
+  "_dependencies": {
     "react-icons": "5.5.0",
     "simple-icons": "14.12.3",
     "@hookform/resolvers": "^5.0.1",
@@ -60,7 +60,7 @@
     "zod": "^3.24.4",
     "next-sitemap": "4.2.3"
   },
-  "devDependencies": {
+  "_devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
